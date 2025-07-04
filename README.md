@@ -91,8 +91,8 @@ flowchart TD
         B --> G{Analytics Service}
     end
 
-    D --> D1[Judge Workers (x-scaled)]
-    E --> E1[WASM Sim Pods (k8s)]
+    D --> D1[Judge Workers x-scaled]
+    E --> E1[WASM Sim Pods k8s]
     F --> F1[S3-compatible storage]
     G --> G1[ClickHouse Cluster]
 
@@ -107,7 +107,6 @@ flowchart TD
     C --> P1
     D --> P2
     D --> P3
-
 ```
 
 ### Repository Layout
